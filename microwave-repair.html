@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Basic -->
+    <meta charset="UTF-8" />
+    <title>Bootstrap 5 Practice</title>
+
+    <!-- Mobile Responsive (MOST IMPORTANT) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+        <!-- ============== Navbar Start Here ============= -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">Indo Care Service</a>
+
+        <!-- Toggle Button (Mobile) -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobileMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Desktop Menu -->
+        <div class="collapse navbar-collapse d-none d-lg-flex">
+          <!-- Center Menu -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Process</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+          </ul>
+
+          <!-- Right Button -->
+          <a href="#" class="btn btn-primary">Book Now</a>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="offcanvas offcanvas-start custom-offcanvas"
+      tabindex="-1"
+      id="mobileMenu"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Process</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+        </ul>
+
+        <a href="#" class="btn btn-primary w-100 mt-3">Book Now</a>
+      </div>
+    </div>
+    <!-- ============== Navbar END Here ============= -->
+     
+    <section class="py-5">
+      <div class="container">
+        <h1 class="px-3">Microwave Repair Service</h1>
+        <div class="row align-items-center p-md-3">
+          <!-- Image -->
+          <div class="col-md-6 p-0 border">
+            <img
+              src="https://picsum.photos/1200/600"
+              class="img-fluid w-100 p-2 rounded-3"
+              alt="Split AC Repair"
+            />
+          </div>
+
+          <!-- Content -->
+          <div class="col-md-6 p-4 p-md-5">
+            <h2 class="fw-bold">AC service</h2>
+
+            <h5 class="text-primary mb-3">Start at ₹599</h5>
+
+            <p class="text-muted">
+              Keep your air conditioner performing at its best with our expert
+              AC services. We offer deep cleaning, gas refilling, and complete
+              maintenance for all brands. Schedule your service today.
+            </p>
+
+            <a href="#" class="btn btn-dark px-4 py-2"> Book Service </a>
+          </div>
+        </div>
+        <div class="row align-items-center p-md-3">
+          <!-- Image -->
+          <div class="col-md-6 p-0 border">
+            <img
+              src="https://picsum.photos/1200/600"
+              class="img-fluid w-100 p-2 rounded-3"
+              alt="Split AC Repair"
+            />
+          </div>
+
+          <!-- Content -->
+          <div class="col-md-6 p-4 p-md-5">
+            <h2 class="fw-bold">AC checkup</h2>
+
+            <h5 class="text-primary mb-3">Start at ₹499</h5>
+
+            <p class="text-muted">
+              Keep your AC running efficiently with our professional AC checkup
+              service. We provide expert inspection, thorough cleaning, and
+              performance testing for all brands. Book your checkup today.
+            </p>
+
+            <a href="#" class="btn btn-dark px-4 py-2"> Book Service </a>
+          </div>
+        </div>
+        <div class="row align-items-center p-md-3">
+          <!-- Image -->
+          <div class="col-md-6 p-0 border">
+            <img
+              src="https://picsum.photos/1200/600"
+              class="img-fluid w-100 p-2 rounded-3"
+              alt="Split AC Repair"
+            />
+          </div>
+
+          <!-- Content -->
+          <div class="col-md-6 p-4 p-md-5">
+            <h2 class="fw-bold">Split AC Installation</h2>
+
+            <h5 class="text-primary mb-3">Start at ₹1499</h5>
+
+            <p class="text-muted">
+              Get your split AC installed by certified technicians. We ensure
+              safe, quick, and precise installation for all brands at affordable
+              prices. Book your split AC installation today.
+            </p>
+
+            <a href="#" class="btn btn-dark px-4 py-2"> Book Service </a>
+          </div>
+        </div>
+        <div class="row align-items-center p-md-3">
+          <!-- Image -->
+          <div class="col-md-6 p-0 border">
+            <img
+              src="https://picsum.photos/1200/600"
+              class="img-fluid w-100 p-2 rounded-3"
+              alt="Split AC Repair"
+            />
+          </div>
+
+          <!-- Content -->
+          <div class="col-md-6 p-4 p-md-5">
+            <h2 class="fw-bold">Split AC uninstallation</h2>
+
+            <h5 class="text-primary mb-3">Start at ₹899</h5>
+
+            <p class="text-muted">
+              Get your split AC installed by experienced technicians. We provide safe, quick, and precise installation for all brands at affordable prices. Book your split AC installation today.
+            </p>
+
+            <a href="#" class="btn btn-dark px-4 py-2"> Book Service </a>
+          </div>
+        </div>
+        <div class="row align-items-center p-md-3">
+          <!-- Image -->
+          <div class="col-md-6 p-0 border">
+            <img
+              src="https://picsum.photos/1200/600"
+              class="img-fluid w-100 p-2 rounded-3"
+              alt="Split AC Repair"
+            />
+          </div>
+
+          <!-- Content -->
+          <div class="col-md-6 p-4 p-md-5">
+            <h2 class="fw-bold">Window AC Installation</h2>
+
+            <h5 class="text-primary mb-3">Start at ₹1099</h5>
+
+            <p class="text-muted">
+              Reliable waste coupling installation for secure pipe connections and efficient, leak-free drainage.
+            </p>
+
+            <a href="#" class="btn btn-dark px-4 py-2"> Book Service </a>
+          </div>
+        </div>
+        <div class="row align-items-center p-md-3">
+          <!-- Image -->
+          <div class="col-md-6 p-0 border">
+            <img
+              src="https://picsum.photos/1200/600"
+              class="img-fluid w-100 p-2 rounded-3"
+              alt="Split AC Repair"
+            />
+          </div>
+
+          <!-- Content -->
+          <div class="col-md-6 p-4 p-md-5">
+            <h2 class="fw-bold">Window AC unstallation</h2>
+
+            <h5 class="text-primary mb-3">Start at ₹699</h5>
+
+            <p class="text-muted">
+              Get your split AC installed by expert technicians. Safe, quick,
+              and precise installation for all brands at affordable rates. Book
+              your split AC installation today!
+            </p>
+
+            <a href="#" class="btn btn-dark px-4 py-2"> Book Service </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== Get in Touch ============= -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <!-- Heading -->
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Get In Touch</h2>
+          <p class="text-muted">Contact Information</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Location -->
+          <div class="col-md-4 col-sm-6">
+            <div class="border p-4 h-100 text-center rounded">
+              <h5 class="fw-bold">Our Location</h5>
+              <p class="mb-0">
+                Shop 24, Gomti Nagar,<br />
+                Lucknow, UP - 226010
+              </p>
+            </div>
+          </div>
+
+          <!-- Call -->
+          <div class="col-md-4 col-sm-6">
+            <div class="border p-4 h-100 text-center rounded">
+              <h5 class="fw-bold">Call Us</h5>
+              <p class="mb-1">+91 98765 43210</p>
+              <small class="text-muted">(Mon–Sun: 9 AM – 9 PM)</small>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="col-md-4 col-sm-12">
+            <div class="border p-4 h-100 text-center rounded">
+              <h5 class="fw-bold">Email Us</h5>
+              <p class="mb-1">help@fastfix.com</p>
+              <small class="text-muted">We reply within 24 hours</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MAP Section ========== -->
+    <section class="py-5">
+      <div class="container">
+        <!-- Heading -->
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">Our Location</h2>
+          <p class="text-muted">Find us on Google Map</p>
+        </div>
+
+        <!-- Map -->
+        <div class="ratio ratio-16x9 rounded overflow-hidden border">
+          <iframe
+            src="https://www.google.com/maps?q=Gomti+Nagar+Lucknow&output=embed"
+            allowfullscreen
+            loading="lazy"
+            height="200"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== Footer Section =============== -->
+    <footer class="bg-dark text-light pt-5">
+      <div class="container">
+        <div class="row">
+          <!-- Brand / About -->
+          <div class="col-md-4 mb-4">
+            <h5 class="fw-bold">Cool Care Service</h5>
+            <p class="">
+              Fast & reliable doorstep repair services for AC, Fridge, Washing
+              Machine & more.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-4 mb-4">
+            <h5 class="fw-bold">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-light text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none">Services</a>
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none">Process</a>
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none">FAQ</a>
+              </li>
+              <li>
+                <a href="#" class="text-light text-decoration-none">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-md-4 mb-4">
+            <h5 class="fw-bold">Contact</h5>
+            <p class="mb-1">📍 Gomti Nagar, Lucknow</p>
+            <p class="mb-1">📞 +91 98765 43210</p>
+            <p class="mb-0">✉ help@fastfix.com</p>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="border-top border-secondary text-center py-3 mt-3">
+          <small class="text-muted">
+            © 2026 FastFix Repair. All Rights Reserved.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle (with Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>

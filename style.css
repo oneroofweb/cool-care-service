@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-offcanvas{
+    width: 70% !important;
+     background-color: #f8f9fa;
+}
