@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const navbarDiv = document.getElementById("navbar");
 
   if (navbarDiv) {
-    fetch("navbar.html")
+    fetch("./navbar.html")
       .then((response) => response.text())
       .then((data) => {
         navbarDiv.innerHTML = data;
