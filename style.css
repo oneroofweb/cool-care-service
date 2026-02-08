@@ -1,27 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.custom-offcanvas{
-    width: 70% !important;
-     background-color: #f8f9fa;
+.custom-offcanvas {
+  width: 70% !important;
+  background-color: #f8f9fa;
 }
-.bg-custom{
-    background: blue !important;
+.bg-custom {
+  background: blue !important;
 }
 
-.bg-custom .nav-link{
-    color: #fff;
+.bg-custom .nav-link {
+  color: #fff;
 }
-.bg-custom .navbar-brand{
-    color: #fff !important;
-    text-transform: uppercase;
-    font-weight: bold;
+.bg-custom .navbar-brand {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .custom-toggle i {
   color: white;
   font-size: 26px;
+}
+
+/* ========================
+   SMALL HERO SECTION
+   ======================== */
+#hero-small {
+  /* 20% of Viewport Height */
+  height: 40vh;
+  min-height: 180px;
+  background:
+    linear-gradient(rgba(13, 110, 253, 0.8), rgba(13, 110, 253, 0.9)),
+    url("/images/indo-cool-care-hero.webp");
+  background-size: cover;
+  background-position: center;
+
+  margin-top: 0px; /* Adjust based on your Navbar height to prevent hiding */
+}
+
+/* Mobile Specific Tweaks */
+@media (max-width: 576px) {
+  #hero-small {
+    height: 25vh; /* Slightly taller on mobile for better spacing */
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  #hero-small h2 {
+    font-size: 1.5rem; /* Readable font size for mobile */
+    margin-bottom: 10px;
+  }
+
+  .btn-warning {
+    font-size: 0.9rem;
+    padding: 8px 25px;
+  }
 }
